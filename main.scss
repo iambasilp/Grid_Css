@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: roboto;
+  background-color: rba(230,230,230);
+  color:black;
+}
+.container{
+  max-width:960px;
+  margin: 100px auto;
+  padding: 10px;
+  display: grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:1rem;
+  // grid-template-rows: repeat(3,1fr);
+  // justify-content: center;
+
+  .item{
+    background-color: #000000;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px;
+    border: 1px solid white;
+    p{
+      font-size: 14px;
+    }
+  }
+  @media (max-width:500px) {
+    
+  }
+
+}
